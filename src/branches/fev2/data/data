@@ -1,0 +1,21 @@
+
+
+-----------------------------   --------------------------      -----------------------         -----------------------
+|            SHIP            |	|        TRIPULANT        |	|       MISSION        |	|      LOGBOOK         |
+| id_ship       |  int       |	| id_tripulant |  int     |	| id_mission  | int    |	| id_logbook  | int    |
+| captain       |  String    |	| alias        |  String  |	| name        | String |	| id_ship     | int    |
+| alias         |  String    |	| charge       |  String  |	| id_ship     | int    |	| date        | String |
+| licenceplate  |  String    |	| gender       |  String  |	| description | String |	| description | String |
+| kind          |  String    |	| experience   |  int     |     ------------------------        | audio       | String |
+| image         |  String    |	| origin       |  String  |                                     ------------------------
+------------------------------  | race         |  String  |	
+                                | age          |  int     |	
+                                | image        |  String  |	
+                                | id_ship      |  int     |	
+                                ---------------------------
+
+
+
+
+
+

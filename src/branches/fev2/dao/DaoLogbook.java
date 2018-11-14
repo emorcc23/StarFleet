@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class DaoLogbook {
 
       /*
-	 * PROPIEDADES Y MÉTODOS SINGLETON
+	 * PROPERTIES & METHODS DBConnection
        */
       private Connection con = null;
 
@@ -39,7 +39,7 @@ public class DaoLogbook {
       }
 
       /*
-	 * MÉTODOS PROPIOS DE LA CLASE DAO
+	 * Methods
        */
       public void insert(Logbook e) throws SQLException {
             PreparedStatement ps = con.prepareStatement("INSERT INTO logbook (id_ship,datee,description,audio) VALUES (?,?,?,?)");
